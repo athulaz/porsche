@@ -1,0 +1,9 @@
+.carousel-caption{
+    height: 400px;
+  }
+  
+  @media (max-width: 500px){
+    .carousel-caption{
+      height: 700px;
+    }
+  }
