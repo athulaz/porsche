@@ -14,22 +14,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./style.css">
-        <style>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        img {
+            width: 100%;
+            height: 600px;
+        }
+    </style>
 
-            img {
-              width: 100%;
-              height: 500px;
-            }
-          </style>
 
- 
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg" style="background-color:white">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="./pics/porsche logo screenshot.png" alt="" style="height: 50px;"></a>
+            <a class="navbar-brand" href="#"><img src="./pics/porsche logo screenshot.png" alt=""
+                    style="height: 50px;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                   
+
 
                 </ul>
                 <ul class="navbar-nav ms-auto mb-5 mb-lg-0">
@@ -63,8 +63,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link  mx-1" aria-current="page" href="#"><i
-                                class="fa-brands fa-github"></i></a>
+                        <a class="nav-link  mx-1" aria-current="page" href="#"><i class="fa-brands fa-github"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link  mx-1" href="#"><i class="fa-brands  fa-twitter"></i></a>
@@ -94,69 +93,158 @@
 
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="./pics/porche.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-md-block">
-                <h5>Porsche India</h5>
-                <p>Know of our Porsche Center network in India</p>
-              </div>
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./pics/porche.jpg" class="d-block w-100 " alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>Porsche India</h5>
+                    <p>Know of our Porsche Center network in India</p>
+                </div>
 
-          </div> 
-          <div class="carousel-item" data-bs-interval="10000">
-            <img src="./pics/porche2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+                <img src="./pics/porche2.jpg" class="d-block w-100" alt="...">
 
-            <div class="carousel-caption d-md-block">
-                <h5>Timeless Machine</h5>  
-                <p>The 911 Carrera S.</p>
-              </div>
-          </div>
-          <div class="carousel-item"  data-bs-interval="10000">
-            <img src="./pics/PORCHE3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption  d-md-block">
-                <h5>Porsche 911 Turbo</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
-          </div>
+                <div class="carousel-caption d-md-block">
+                    <h5>Timeless Machine</h5>
+                    <p>The 911 Carrera S.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+                <img src="./pics/PORCHE3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                    <h5>Porsche 911 Turbo</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
 
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
-  <div class="container w-100 mt-5">
-    <div class="row ">
-        <div class="col-lg-7 col-md-12">
-            <h1>Porsche 911 Turbo</h1>
-            <p>Our engineers like to talk about the most perfect sports car ever. Incredible performance, whilst being comfortable and fully suitable for everyday use. The 911 Turbo models continue this philosophy.
-              <br>
+    </div>
+    <div class="container w-100 mt-5">
+        <div class="row ">
+            <div class="col-lg-7 col-md-12">
+                <h1>Porsche 911 Turbo</h1>
+                <p>Our engineers like to talk about the most perfect sports car ever. Incredible performance, whilst
+                    being comfortable and fully suitable for everyday use. The 911 Turbo models continue this
+                    philosophy.
+                    <br>
 
-           <br>
-           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat cumque nemo magni totam neque, voluptate odio dolor veritatis id ipsa asperiores nesciunt pariatur fugit repellendus inventore quisquam iusto! Doloremque, quam!
-            </p>
+                    <br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat cumque nemo magni totam neque,
+                    voluptate odio dolor veritatis id ipsa asperiores nesciunt pariatur fugit repellendus inventore
+                    quisquam iusto! Doloremque, quam!
+                </p>
+                <button type="button" class="btn btn-primary custom-button" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Launch Demo
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Porsche 911 Turbo</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Know of our Porsche Center network in India
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <img class="w-100" src="./pics/px2.jpg" alt="" style="height: 300px;">
+            </div>
         </div>
-        <div class="col-lg-5 col-md-12"><img class="w-100" src="./pics/porche.jpg" alt="" style="height: 300px;"></div>
+    </div>
+    <!-- cards -->
+    <div class="container w-100 mt-5">
+        <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img src="./pics/pxx1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title">Porsche GT3 RS</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
+<!-- cards -->
+    <div class="container w-100 mt-5">
 
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img style="height: 200px;" src="./pics/pxx2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Porsche GT3 RS</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Launch Demo</a>
+                    </div>
+                </div>
+            </div>
 
-  </div>
-   
-      
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img style="height: 200px;" src="./pics/pxx1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Porsche GT3 RS</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Launch Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img style="height: 200px;" src="./pics/pxx3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Porsche GT3 RS</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Launch Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 </body>

@@ -2,6 +2,12 @@
     height: 200px;
   }
   
+
+  .custom-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   @media (max-width: 500px){
     .carousel-caption{
       height: 300px;
