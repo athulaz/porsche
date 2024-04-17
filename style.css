@@ -1,5 +1,11 @@
+img {
+  width: 100%;
+}
+
+
 .carousel-caption{
-    height: 200px;
+    height: 100px;
+
   }
   
 
@@ -10,6 +16,6 @@
 
   @media (max-width: 500px){
     .carousel-caption{
-      height: 300px;
+      height: 100px;
     }
   }
